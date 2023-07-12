@@ -10,6 +10,6 @@ Javaweb环境脚本，免去配环境的麻烦。
 #### 使用教程
 
 ```sh
-git https://gitee.com/wliafe/java-web-environment.git
+git clone https://gitee.com/wliafe/java-web-environment.git
 bash java-web-environment.sh
 ```
