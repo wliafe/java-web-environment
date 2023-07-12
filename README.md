@@ -11,5 +11,6 @@ Javaweb环境脚本，免去配环境的麻烦。
 
 ```sh
 git clone https://gitee.com/wliafe/java-web-environment.git
+cd java-web-environment
 bash java-web-environment.sh
 ```
