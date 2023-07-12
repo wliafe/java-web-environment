@@ -26,7 +26,7 @@ else
 fi
 
 # 安装MySQL
-if docker container inspect env-mysql &>/dev/null; then
+if $sudo_cmd docker container inspect env-mysql &>/dev/null; then
     echo "容器 env-mysql 已存在"
 else
     echo "配置并启动MySQL"
