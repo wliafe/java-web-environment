@@ -22,6 +22,7 @@ else
     echo "安装Docker"
     curl -fsSL https://test.docker.com -o test-docker.sh
     $sudo_cmd sh test-docker.sh
+    rm test-docker.sh
     echo "Docker安装成功"
 fi
 
